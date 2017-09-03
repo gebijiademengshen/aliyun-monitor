@@ -4,7 +4,7 @@ import requests
 import time
 times = time.strftime("%Y-%m-%d/%H:%M")
 url = 'https://oapi.dingtalk.com/robot/send?access_token=d2866759c21b3d84d4cfa3af8e7c4b7dd2eddb4b8c9654ec1e471f603f548dd3'
-link = 'http://aops.sudiyi.cn:8002/main.html'
+link = 'your web address'
 def Data(weblink):
     info = {
         "msgtype":"markdown",
